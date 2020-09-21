@@ -85,7 +85,6 @@ class WebServer:
 
 
 
-
 if __name__ == '__main__':
     httpd=WebServer(host="0.0.0.0",port=8001,html="./static")
     httpd.start()
